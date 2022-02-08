@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: okteto-hello-world
-        image: elementalsymmetry.dev/okteto-hello-world:latest
+        image: okteto.dev/hello-world:latest
         ports:
         - containerPort: 8080
