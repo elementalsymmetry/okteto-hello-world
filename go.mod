@@ -1,3 +1,3 @@
-module okteto-hello-world
+module hello-world
 
 go 1.13
