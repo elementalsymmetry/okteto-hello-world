@@ -1,6 +1,6 @@
 name: hello-world
 image: golang:buster
-command: 
+command: bash
 securityContext:
   capabilities:
     add:
