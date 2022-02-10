@@ -1,5 +1,5 @@
 name: hello-world
-image: okteto/golang:1
+image: golang:alpine
 command: bash
 securityContext:
   capabilities:
