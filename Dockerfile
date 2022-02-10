@@ -2,7 +2,7 @@ FROM golang:buster
 
 WORKDIR /app
 ADD . .
-RUN apk update && apk add bash
+RUN apt update && apt install bash
 RUN go build -o app
 
 EXPOSE 8080
